@@ -3,7 +3,7 @@ Repositório destinado ao Checkpoint 03 de Microservice
 
 # 1.1 - Explorando Imagens
 
-Baixe a imagem oficial do Python:
+Baixe a imagem oficial do Python: <br>
 <img width="1115" height="620" alt="image" src="https://github.com/user-attachments/assets/8aa0dc35-d01f-4a44-bf73-5f5e940a2447" />
 
 Inspecione a imagem:
@@ -12,7 +12,7 @@ Inspecione a imagem:
 Verifique o histórico de camadas:
 <img width="1020" height="256" alt="image" src="https://github.com/user-attachments/assets/69c741d7-667d-4167-9095-747a29f4ae10" />
 
-1.2 - Gerenciando Imagens
+# 1.2 - Gerenciando Imagens
 
 Baixe diferentes versões do Node.js:
 <img width="1062" height="420" alt="image" src="https://github.com/user-attachments/assets/9f9d52b4-a40c-4213-aec1-7852a4140a25" />
