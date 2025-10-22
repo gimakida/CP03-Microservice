@@ -1,0 +1,325 @@
+PS C:\Users\labsfiap> docker inspect redis
+[
+    {
+        "Id": "sha256:4521b581dbddea6e7d81f8fe95ede93f5648aaa66a9dacd581611bf6fe7527bd",
+        "RepoTags": [
+            "redis:latest"
+        ],
+        "RepoDigests": [
+            "redis@sha256:4521b581dbddea6e7d81f8fe95ede93f5648aaa66a9dacd581611bf6fe7527bd"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-10-03T12:18:48Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "6379/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "REDIS_DOWNLOAD_URL=https://github.com/redis/redis/archive/refs/tags/8.2.2.tar.gz",
+                "REDIS_DOWNLOAD_SHA=e355378d7f97efd06321fff881efc452a9673cc27b3a6d0dfd2a45fbcc83349c"
+            ],
+            "Cmd": [
+                "redis-server"
+            ],
+            "Image": "",
+            "Volumes": {
+                "/data": {}
+            },
+            "WorkingDir": "/data",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 52458645,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:d6d0586ce8024205fd00d811876170571638957b5095d7e9dd1d015345c8d069",
+                "sha256:71451b8ca8f53c25cba2bad7d665831d060c6e29523911991b2c1f8f14e16b7e",
+                "sha256:3a27a9009f04f74866e70b8a5c8eac76e64ae74a5acb4c96612a44c1ec471504",
+                "sha256:eb77d62ebcf81a7bd95926b5a3ffa487a1ba88a653579d79f101ad4c78d1601a",
+                "sha256:bb331b92f5b1baec9ef5eebf659c85ab7fc2de7ce3bf449202bd6efd7be8d32f",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:58eeb470b09e31720af0512ce24a67017d388be45d2d386d40f4ea08928555c9"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2025-10-21T23:13:52.751935493Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:4521b581dbddea6e7d81f8fe95ede93f5648aaa66a9dacd581611bf6fe7527bd",
+            "size": 10224
+        }
+    }
+]
+
+
+
+
+PS C:\Users\labsfiap> docker inspect nginx
+[
+    {
+        "Id": "sha256:029d4461bd98f124e531380505ceea2072418fdf28752aa73b7b273ba3048903",
+        "RepoTags": [
+            "nginx:latest"
+        ],
+        "RepoDigests": [
+            "nginx@sha256:029d4461bd98f124e531380505ceea2072418fdf28752aa73b7b273ba3048903"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-10-07T21:06:46Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.29.2",
+                "NJS_VERSION=0.9.3",
+                "NJS_RELEASE=1~trixie",
+                "PKG_RELEASE=1~trixie",
+                "DYNPKG_RELEASE=1~trixie"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 59760611,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:d7c97cb6f1fe7cae982649e9f55efe201212e8acaa64bd668c083b204e4efd4c",
+                "sha256:7d44345592863b6f5ec628c169d58943e45881ed7070f5ea513304be0c6e6499",
+                "sha256:fc74d1be15ae2042f06abdc7dce177aa99d8fb2f58bb1c8888bc80ce2f9e7425",
+                "sha256:5a74922ed6252e9b4ec7c9dcb476707aedf44a76b03a3bbee1d10bea2f4fce17",
+                "sha256:1cf4237d06e93131bfa8d4956dd537ed4868bcf7e4315ca0dadefe91b84c2a56",
+                "sha256:1e8adaf99b20f2d09d15f8252d530b76deb13a4c59ff4c030a8cfaf923e08aac",
+                "sha256:19aab87073f21862913ea2ea5b7f82485606bf755c1ac498133af0a4002c668d"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2025-10-21T23:14:05.794066775Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:029d4461bd98f124e531380505ceea2072418fdf28752aa73b7b273ba3048903",
+            "size": 10229
+        }
+    }
+]
+
+
+
+PS C:\Users\labsfiap> docker inspect postgres
+[
+    {
+        "Id": "sha256:b5b154cfe5bfed10a2e68f9d064ab76cebf28b4c80bedf714e6b500f839fbe9d",
+        "RepoTags": [
+            "postgres:latest"
+        ],
+        "RepoDigests": [
+            "postgres@sha256:b5b154cfe5bfed10a2e68f9d064ab76cebf28b4c80bedf714e6b500f839fbe9d"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-09-25T18:22:35Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/18/bin",
+                "GOSU_VERSION=1.19",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=18",
+                "PG_VERSION=18.0-1.pgdg13+3",
+                "PGDATA=/var/lib/postgresql/18/docker"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Image": "",
+            "Volumes": {
+                "/var/lib/postgresql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null,
+            "StopSignal": "SIGINT"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 162206823,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:d7c97cb6f1fe7cae982649e9f55efe201212e8acaa64bd668c083b204e4efd4c",
+                "sha256:768ed6a135e83fdfbcfbb4a7c917d5df77be572e4d4ed0f7f6d74bb51a85823b",
+                "sha256:935d299adb22865822299a518e0f9f4f85cb3a65a10bdd7d71f54117c42ce2d6",
+                "sha256:3d23b7183c5cc548fb0fb5b7f37640f79c090106a988bfdcd9dc117093ee8890",
+                "sha256:6d6d04f313511dee2022e5254c489a4150149c8a2742e172d119d308d0ff700e",
+                "sha256:274b5e6802fe5e310da18d4f3aea5de972590d4a0e11305ddbe54d6e1e6e71fa",
+                "sha256:3fa3646c94efdf15efa2320c05863df7cf90950e01b7638eff226ba6d1c3a71c",
+                "sha256:fce0120e3b31493539ef3aea5635283ebab6645222199ea5ccc3077fdbea8ad2",
+                "sha256:7e48734253cf741b16490392372e957e137da06688d3a120ac4cd244069d8725",
+                "sha256:6621976b9c8dd8c76b293fb68caa50254d69ff69f8ff19ca0ac88358e3138873",
+                "sha256:a7de3c049c73056c3a4549ec51ebbfca0c8e9e1336685ded1025af561b212a48",
+                "sha256:f0c587420562825414b447c1e8786b0ead6a3663cd907ef5f3f102f1f73eae8c",
+                "sha256:c6c2a6862a9f0c626cda372067ecc5827b73ce5bfb6feaa50bc5a6236d9c6929",
+                "sha256:2169a2dfe27ed046e9f94144813294d97c0665dec1be44745ae841e1f52a90f9"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2025-10-21T23:14:27.724487989Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:b5b154cfe5bfed10a2e68f9d064ab76cebf28b4c80bedf714e6b500f839fbe9d",
+            "size": 10229
+        }
+    }
+]
+
+
+PS C:\Users\labsfiap> docker history nginx
+IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
+029d4461bd98   2 weeks ago   CMD ["nginx" "-g" "daemon off;"]                0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   STOPSIGNAL SIGQUIT                              0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   EXPOSE map[80/tcp:{}]                           0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENTRYPOINT ["/docker-entrypoint.sh"]            0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY 30-tune-worker-processes.sh /docker-ent…   16.4kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY 20-envsubst-on-templates.sh /docker-ent…   12.3kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY 15-local-resolvers.envsh /docker-entryp…   12.3kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY 10-listen-on-ipv6-by-default.sh /docker…   12.3kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY docker-entrypoint.sh / # buildkit          8.19kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -x     && groupadd --syst…   77.6MB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV DYNPKG_RELEASE=1~trixie                     0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV PKG_RELEASE=1~trixie                        0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV NJS_RELEASE=1~trixie                        0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV NJS_VERSION=0.9.3                           0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV NGINX_VERSION=1.29.2                        0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   LABEL maintainer=NGINX Docker Maintainers <d…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   # debian.sh --arch 'amd64' out/ 'trixie' '@1…   87.4MB    debuerreotype 0.16
+
+PS C:\Users\labsfiap> docker history redis
+IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
+4521b581dbdd   2 weeks ago   CMD ["redis-server"]                            0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   EXPOSE map[6379/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENTRYPOINT ["docker-entrypoint.sh"]             0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   COPY docker-entrypoint.sh /usr/local/bin/ # …   24.6kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   WORKDIR /data                                   4.1kB     buildkit.dockerfile.v0
+<missing>      2 weeks ago   VOLUME [/data]                                  0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c mkdir /data && chown redis:re…   8.19kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;   savedAptMark="$(a…   62.6MB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV REDIS_DOWNLOAD_SHA=e355378d7f97efd06321f…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV REDIS_DOWNLOAD_URL=https://github.com/re…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;  apt-get update;  a…   41kB      buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;  groupadd -r -g 999…   41kB      buildkit.dockerfile.v0
+<missing>      2 weeks ago   # debian.sh --arch 'amd64' out/ 'bookworm' '…   85.2MB    debuerreotype 0.16
+
+
+PS C:\Users\labsfiap> docker history postgres
+IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
+b5b154cfe5bf   3 weeks ago   CMD ["postgres"]                                0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   EXPOSE map[5432/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   STOPSIGNAL SIGINT                               0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENTRYPOINT ["docker-entrypoint.sh"]             0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c ln -sT docker-ensure-initdb.s…   16.4kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   COPY docker-entrypoint.sh docker-ensure-init…   36.9kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   VOLUME [/var/lib/postgresql]                    0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c ln -svT . /var/lib/postgresql…   16.4kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV PGDATA=/var/lib/postgresql/18/docker        0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c install --verbose --directory…   12.3kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -eux;  dpkg-divert --add …   106kB     buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -ex;   export PYTHONDONTW…   341MB     buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV PG_VERSION=18.0-1.pgdg13+3                  0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV PATH=/usr/local/sbin:/usr/local/bin:/usr…   0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV PG_MAJOR=18                                 0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -ex;  key='B97B0AFCAA1A47…   24.6kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c mkdir /docker-entrypoint-init…   8.19kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -eux;  apt-get update;  a…   3.82MB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV LANG=en_US.utf8                             0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -eux;  if [ -f /etc/dpkg/…   27.3MB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -eux;  savedAptMark="$(ap…   3.74MB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   ENV GOSU_VERSION=1.19                           0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -ex;  apt-get update;  ap…   16.9MB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   RUN /bin/sh -c set -eux;  groupadd -r postgr…   53.2kB    buildkit.dockerfile.v0
+<missing>      3 weeks ago   # debian.sh --arch 'amd64' out/ 'trixie' '@1…   87.4MB    debuerreotype 0.16
+
+Comparando com as 3 imagens, o postgres é o mais pesado por conter mais camadas que os outros e o mais leve é o redis, porém, mais camadas significa mais comandos e instalação completa dos usuários, banco de dados, o que torna mais completo em relação as outras imagens. O redis utiliza debiam 12, o que é mais estável, já nginx e postgres usam o Debian 13 que está na versão de testes, ou seja, instável.
+
+Pela quantidade de camadas que a imagem possui
+A Alpine é um sistema de operação que é baseada para as imagens docker
+A importância do versionamento é para que outros desenvolvedores possam entender se o programa foi atualizado e se tem algum bug para resolver (ou quantidade de bugs resolvidos)
+
