@@ -3,7 +3,7 @@ Repositório destinado ao Checkpoint 03 de Microservice
 
 # 1.1 - Explorando Imagens
 
-Baixe a imagem oficial do Python: <br>
+### Baixe a imagem oficial do Python: <br>
 <img width="1115" height="620" alt="image" src="https://github.com/user-attachments/assets/8aa0dc35-d01f-4a44-bf73-5f5e940a2447" />
 <p></p>
 Inspecione a imagem: <br>
