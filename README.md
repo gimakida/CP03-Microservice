@@ -5,7 +5,7 @@ Repositório destinado ao Checkpoint 03 de Microservice
 
 Baixe a imagem oficial do Python: <br>
 <img width="1115" height="620" alt="image" src="https://github.com/user-attachments/assets/8aa0dc35-d01f-4a44-bf73-5f5e940a2447" />
-
+<p></p>
 Inspecione a imagem:
 <img width="867" height="489" alt="image" src="https://github.com/user-attachments/assets/1691a401-99bf-47d3-8eaa-d5b957e2e407" />
 
