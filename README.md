@@ -12,6 +12,7 @@ Inspecione a imagem: <br>
 Verifique o histórico de camadas:<br>
 <img width="1020" height="256" alt="image" src="https://github.com/user-attachments/assets/69c741d7-667d-4167-9095-747a29f4ae10" />
 <p></p>
+
 # 1.2 - Gerenciando Imagens
 
 Baixe diferentes versões do Node.js: <br>
@@ -27,6 +28,7 @@ Compare os tamanhos das imagens:  <br>
  Remova imagens não utilizadas:  <br>
 <img width="674" height="118" alt="image" src="https://github.com/user-attachments/assets/c21c14cb-1d4a-4597-be2c-e6185dfb183a" />
 <p></p>
+
 # 2.1 - primeira aplicação
 
 Crie um diretório: <br>
@@ -41,6 +43,7 @@ Crie um arquivo app.py:  <br>
 Criando Dockerfile:  <br>
 <img width="637" height="217" alt="image" src="https://github.com/user-attachments/assets/119dccb1-bc80-4f30-b90f-089941d64b28" />
 <p></p>
+
 # 2.3 Build e execução:
 
 Construa a imagem:  <br>
@@ -58,9 +61,12 @@ Teste no navegador:  <br>
 Verifique os logs:  <br>
 <img width="923" height="186" alt="image" src="https://github.com/user-attachments/assets/3dee4c67-59d0-408d-a52b-2be6067154c3" />
 <p></p>
+
 # 2.4 Otimizando o Dockerfile 
+
 <img width="679" height="563" alt="image" src="https://github.com/user-attachments/assets/21e639d7-0c2b-40ff-9e24-b682f85f65a6" />
 <p></p>
+
 # 3.1 Named Volumes
 
 Crie um volume:  <br>
@@ -78,6 +84,7 @@ Execute PostgreSQL com volume:  <br>
 Conecte e crie uma tabela de teste:  <br>
 <img width="742" height="100" alt="image" src="https://github.com/user-attachments/assets/5b6a496c-e8f1-4a4f-b7a9-980726da27d0" />
 <p></p>
+
 # 3.2 - Testando Persistência
 
 Acesse o container:  <br>
@@ -95,6 +102,7 @@ Crie um novo container com o mesmo volume:  <br>
 Verifique se os dados persistiram:  <br>
 <img width="835" height="64" alt="image" src="https://github.com/user-attachments/assets/06293913-4305-4e65-8723-b51fff5b6c0a" />
 <p></p>
+
 # 3.3 - Bind Mounts
 
 Crie um diretório local:  <br>
@@ -112,6 +120,7 @@ Crie um arquivo index.html:  <br>
 Modifique o index.html e veja as mudanças em tempo real:  <br>
 <img width="592" height="195" alt="image" src="https://github.com/user-attachments/assets/86e90f73-4839-4c92-bcf5-a84b97e05e61" />
 <p></p>
+
 # 4.1 - Configurando com ENV
 
 Crie um novo diretório:  <br>
@@ -123,6 +132,7 @@ Crie um arquivo app.py:  <br>
 Crie um arquivo requirements.txt:  <br>
 <img width="767" height="252" alt="image" src="https://github.com/user-attachments/assets/f5cad08c-062a-4a2c-9029-4448f281020b" />
 <p></p>
+
 # 4.2 - Dockerfile com ENV e ARG
 
 Crie um Dockerfile:  <br>
@@ -131,6 +141,7 @@ Crie um Dockerfile:  <br>
 Build com argumentos:  <br>
 <img width="872" height="41" alt="image" src="https://github.com/user-attachments/assets/1c82694e-5ea1-49c8-a63d-85a0737adb6e" />
 <p></p>
+
 # 4.3 - Executando com Variáveis
 
 Execute com variáveis inline:  <br>
